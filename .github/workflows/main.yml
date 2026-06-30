@@ -39,7 +39,7 @@ jobs:
 
     - name: Generate images
       run: |
-        ./zig-out/bin/github-stats --exclude-repos "openchamber/*,opencode-ai/*"
+        ./zig-out/bin/github-stats --exclude-repos "microsoft/winget-pkgs,officialrajdeepsingh/awesome-nextjs"
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}

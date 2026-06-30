@@ -39,10 +39,9 @@ jobs:
 
     - name: Generate images
       run: |
-        ./zig-out/bin/github-stats
+        ./zig-out/bin/github-stats --exclude-repos "openchamber/*,opencode-ai/*"
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
         EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
         EXCLUDE_PRIVATE: "true"
         SILENT: "true"

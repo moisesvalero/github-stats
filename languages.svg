@@ -134,13 +134,13 @@ div.ellipsis {
 <span class="progress">
 <span style="
   background-color: #3572A5; 
-  width: 69.391%;
+  width: 69.402%;
 " class="progress-item"></span><span style="
   background-color: #3178c6; 
-  width: 23.713%;
+  width: 23.704%;
 " class="progress-item"></span><span style="
   background-color: #f1e05a; 
-  width: 3.119%;
+  width: 3.118%;
 " class="progress-item"></span><span style="
   background-color: #ff3e00; 
   width: 0.977%;
@@ -244,10 +244,10 @@ div.ellipsis {
   background-color: #f34b7d; 
   width: 0.000%;
 " class="progress-item"></span><span style="
-  background-color: #B83998; 
+  background-color: #403a40; 
   width: 0.000%;
 " class="progress-item"></span><span style="
-  background-color: #403a40; 
+  background-color: #B83998; 
   width: 0.000%;
 " class="progress-item"></span><span style="
   background-color: #87AED7; 
@@ -293,7 +293,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Python</span>
-  <span class="percent">69.39%</span>
+  <span class="percent">69.40%</span>
 </li>
 <li style="animation-delay: 300ms;">
   <svg 
@@ -309,7 +309,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">TypeScript</span>
-  <span class="percent">23.71%</span>
+  <span class="percent">23.70%</span>
 </li>
 <li style="animation-delay: 450ms;">
   <svg 
@@ -875,22 +875,6 @@ div.ellipsis {
   <svg 
       xmlns="http://www.w3.org/2000/svg" 
       class="octicon"
-      style="fill: #B83998;" 
-      viewBox="0 0 16 16" 
-      version="1.1" 
-      width="16" 
-      height="16"
-  ><path 
-      fill-rule="evenodd" 
-      d="M8 4a4 4 0 100 8 4 4 0 000-8z"
-  ></path></svg>
-  <span class="lang">Erlang</span>
-  <span class="percent">0.00%</span>
-</li>
-<li style="animation-delay: 5850ms;">
-  <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      class="octicon"
       style="fill: #403a40;" 
       viewBox="0 0 16 16" 
       version="1.1" 
@@ -901,6 +885,22 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">xBase</span>
+  <span class="percent">0.00%</span>
+</li>
+<li style="animation-delay: 5850ms;">
+  <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      class="octicon"
+      style="fill: #B83998;" 
+      viewBox="0 0 16 16" 
+      version="1.1" 
+      width="16" 
+      height="16"
+  ><path 
+      fill-rule="evenodd" 
+      d="M8 4a4 4 0 100 8 4 4 0 000-8z"
+  ></path></svg>
+  <span class="lang">Erlang</span>
   <span class="percent">0.00%</span>
 </li>
 <li style="animation-delay: 6000ms;">
